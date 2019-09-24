@@ -83,3 +83,11 @@ code {
 .clear {
   clear: both;
 }
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #F2B8B8;
+  border-radius: 50%;
+  display: inline-block;
+}

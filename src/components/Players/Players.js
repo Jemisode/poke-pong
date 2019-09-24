@@ -28,7 +28,7 @@ class Players extends Component {
 
 		return (
 			<React.Fragment>	
-							<center>
+							<center><br></br>
 							<div className="body background">   
 								<form className="container">
 									<label className="form-label">

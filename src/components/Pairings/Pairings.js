@@ -8,9 +8,10 @@ const Pairings = () => (
     gap={24}>
 
     {/* Round of 16 */}
-
+    
     <div>
-        <div class="round r-of-16">Round of 16
+        <br></br><br></br>
+        <div class="round r-of-16"><center>Round of 16</center>
         <div class="bracket-game">
             <div class="player top win"> Mew
             <div class="score"> 3 </div>
@@ -19,7 +20,7 @@ const Pairings = () => (
             <div class="score"> 1 </div>
         </div>
     </div>
-
+    <br></br>
     <div class="bracket-game cont">
             <div class="player top loss"> Onix
             <div class="score"> 0 </div>
@@ -27,6 +28,31 @@ const Pairings = () => (
             <div class="player bot win"> Machop
             <div class="score"> 3 </div>
         </div>
+    <br></br>
+        <div class="bracket-game">
+        <div class="player top win">
+        Pikachu
+        <div class="score">
+            3
+        </div>
+        </div>
+        <div class="player bot loss">
+        Horsea
+        <div class="score">
+            1
+        </div>
+        </div>
+    </div>
+    <br></br>
+    <div class="bracket-game cont">
+            <div class="player top loss"> Ekans
+            <div class="score"> 0 </div>
+        </div>
+            <div class="player bot win"> Jynx
+            <div class="score"> 3 </div>
+        </div>
+    </div>
+
     </div>
     </div>
 
@@ -40,10 +66,13 @@ const Pairings = () => (
     <div class="next-line"></div>
     <div class="clear"></div>
     </div></div>
+    
 
     {/* Quarter Final */}    
-
-    <div> <div class="round q-f">Quarter Final
+    
+    <div> <br></br><br></br>
+    <div class="round q-f"><center>Quarter Final</center>
+    <br></br> <br></br> <br></br>
     <div class="bracket-game">
         <div class="player top win">
         Mew
@@ -52,21 +81,22 @@ const Pairings = () => (
         </div>
         </div>
         <div class="player bot loss">
-        Diglet
+        Machop
         <div class="score">
             1
         </div>
         </div>
     </div>
+    <br></br> <br></br> <br></br> <br></br> <br></br>
     <div class="bracket-game cont">
         <div class="player top loss">
-        Onix
+        Pikachu
         <div class="score">
             0
         </div>
         </div>
         <div class="player bot win">
-        Machop
+        Jynx
         <div class="score">
             3
         </div>
@@ -83,43 +113,70 @@ const Pairings = () => (
     <div class="next-line"></div>
     <div class="clear"></div>
     
+    </div></div>
+      
       {/* Semi Final */}  
 
-    </div></div>
-    <div>Semi Final</div>
-
-    {/* Final */ }
-
-    <div> <div><div class="round r-of-16">Final
+      <div><br></br><br></br>
+           <div class="round q-f"><center>Semi Final</center>
+    <br></br> <br></br> <br></br>
+    <br></br> <br></br> <br></br> <br></br> <br></br>
     <div class="bracket-game">
         <div class="player top win">
-        Pikachu
+        Mew
         <div class="score">
             3
         </div>
         </div>
         <div class="player bot loss">
-        Horsea
+        Jynx
         <div class="score">
             1
         </div>
         </div>
     </div>
-    <div class="bracket-game cont">
-        <div class="player top loss">
-        Pidgey
-        <div class="score">
-            0
-        </div>
-        </div>
-        <div class="player bot win">
-        Squirtle
+    </div>
+
+    <div class="connectors q-f">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    
+    </div></div>
+
+    {/* Final */ }
+
+    <div> <br></br><br></br>
+        <div><div class="round r-of-16"><center>Final</center><br></br>
+    
+        <div><center>Winner</center></div><br></br>
+    <div><center>
+        <span class="circle"><br></br>Winner</span> </center>
+    </div>
+    <br></br><br></br>
+    
+    <div class="bracket-game">
+        <div class="player top win">
+        Mew
         <div class="score">
             3
         </div>
         </div>
-    </div> 
+        <div class="player bot loss">
+        Nidoran
+        <div class="score">
+            1
+        </div>
+        </div>
     </div>
+    </div>
+
+
     <div class="connectors q-f">
     <div class="top-line"></div>
     <div class="clear"></div>
@@ -131,21 +188,145 @@ const Pairings = () => (
     <div class="clear"></div>
     </div></div></div>
 
-    {/* Final */ }
-
-    <div>Final</div>
-
     {/* Semi Final*/ }
 
-    <div>Semi Final</div>
+    <div><br></br><br></br>
+         <div class="round q-f"><center>Semi Final</center>
+    <br></br> <br></br> <br></br>
+    <br></br> <br></br> <br></br> <br></br> <br></br>
+    <div class="bracket-game">
+        <div class="player top win">
+        Nidoran
+        <div class="score">
+            3
+        </div>
+        </div>
+        <div class="player bot loss">
+        Mankey
+        <div class="score">
+            1
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="connectors q-f">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    
+    </div></div>
 
     {/* Quarter Final*/ }
 
-    <div>Quarter Final</div>
+    <div> <br></br><br></br>
+    <div class="round q-f"><center>Quarter Final</center>
+    <br></br> <br></br> <br></br>
+    <div class="bracket-game">
+        <div class="player top win">
+        Nidoran
+        <div class="score">
+            3
+        </div>
+        </div>
+        <div class="player bot loss">
+        Staryu
+        <div class="score">
+            1
+        </div>
+        </div>
+    </div>
+    <br></br> <br></br> <br></br> <br></br> <br></br>
+    <div class="bracket-game cont">
+        <div class="player top loss">
+        Cubone
+        <div class="score">
+            0
+        </div>
+        </div>
+        <div class="player bot win">
+        Mankey
+        <div class="score">
+            3
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="connectors q-f">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    
+    </div></div>
 
     {/* Round of 16 */ }
 
-    <div>Round of 16</div>
+    <div><br></br><br></br>
+        <div class="round r-of-16"><center>Round of 16</center>
+        <div class="bracket-game">
+            <div class="player top win"> Nidoran
+            <div class="score"> 3 </div>
+        </div>
+            <div class="player bot loss"> Weedle
+            <div class="score"> 1 </div>
+        </div>
+    </div>
+    <br></br>
+    <div class="bracket-game cont">
+            <div class="player top loss"> Abra
+            <div class="score"> 0 </div>
+        </div>
+            <div class="player bot win"> Staryu
+            <div class="score"> 3 </div>
+        </div>
+    <br></br>
+        <div class="bracket-game">
+        <div class="player top win">
+        Cubone
+        <div class="score">
+            3
+        </div>
+        </div>
+        <div class="player bot loss">
+        Voltorb
+        <div class="score">
+            1
+        </div>
+        </div>
+    </div>
+    <br></br>
+    <div class="bracket-game cont">
+            <div class="player top loss"> Seel
+            <div class="score"> 0 </div>
+        </div>
+            <div class="player bot win"> Mankey
+            <div class="score"> 3 </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    <div class="connectors r-of-16">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    </div></div>
   
   </Grid>
 
