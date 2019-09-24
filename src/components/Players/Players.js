@@ -27,11 +27,8 @@ class Players extends Component {
 	render() {
 
 		return (
-			<React.Fragment>
-					<Grid gap={24}>
-						<div className="grid background">
-							</div>
-
+			<React.Fragment>	
+							<center>
 							<div className="body background">   
 								<form className="container">
 									<label className="form-label">
@@ -47,13 +44,13 @@ class Players extends Component {
 
 									<button 
 										type="submit"
-										onClick={ this.handleSubmit }
+										onClick={ this.handleAdd }
 										className="btn-submit">
 										Add
 									</button>
 								</form>
 						</div>
-					</Grid>	
+						</center>
 			</React.Fragment>
 		);
 	}
