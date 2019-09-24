@@ -12,6 +12,7 @@ const Pairings = () => (
     <div>
         <br></br><br></br>
         <div class="round r-of-16"><center>Round of 16</center>
+        <br></br>
         <div class="bracket-game">
             <div class="player top win"> Mew
             <div class="score"> 3 </div>
@@ -120,7 +121,7 @@ const Pairings = () => (
       <div><br></br><br></br>
            <div class="round q-f"><center>Semi Final</center>
     <br></br> <br></br> <br></br>
-    <br></br> <br></br> <br></br> <br></br> <br></br>
+    <br></br> <br></br> <br></br> <br></br> 
     <div class="bracket-game">
         <div class="player top win">
         Mew
@@ -152,12 +153,15 @@ const Pairings = () => (
     {/* Final */ }
 
     <div> <br></br><br></br>
-        <div><div class="round r-of-16"><center>Final</center><br></br>
+        <div><div class="round r-of-16"><center>Final</center><br></br><br></br>
     
-        <div><center>Winner</center></div><br></br>
-    <div><center>
-        <span class="circle"><br></br>Winner</span> </center>
-    </div>
+        <div><center>WINNER</center></div><br></br>
+       <center><i class="fa fa-trophy fa-3x"></i></center> 
+        <div class="bracket-game">
+        <div class="player top win">
+       <center> Mew </center> </div></div>
+    
+
     <br></br><br></br>
     
     <div class="bracket-game">
@@ -273,7 +277,7 @@ const Pairings = () => (
 
     <div><br></br><br></br>
         <div class="round r-of-16"><center>Round of 16</center>
-        <div class="bracket-game">
+        <br></br><div class="bracket-game">
             <div class="player top win"> Nidoran
             <div class="score"> 3 </div>
         </div>
