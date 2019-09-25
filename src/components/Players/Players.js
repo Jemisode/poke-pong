@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Grid from "react-css-grid";
 
 class Players extends Component {
 	constructor(props) {
@@ -7,6 +6,8 @@ class Players extends Component {
 		this.state = {
 			players: [],
 			player: "",
+			playerID: 0,
+			error: false,
 		}
 		this.handleChange = this.handleChange.bind(this);
 		this.handleAdd = this.handleAdd.bind(this);
@@ -16,13 +17,21 @@ class Players extends Component {
 		this.setState({ player: e.currentTarget.value });
 	}
 
-	handleAdd(e, state, players) {
-	e.preventDefault();
-	this.props.handleAdd({ 
-        name: this.state.player,
-    });
-    
-    }
+	handleAdd = () => {
+		// console.log(this.state.player);
+		let { chosenPlayer, handlePlayer } = this.props;
+		let { players } = this.state;
+
+		let name = this.state.player;
+		let id = this.state.playerID;
+
+		if (chosenPlayer.length <= 15 && players.map(player => player.name).includes(name) && !chosenPlayer.map(player => player.name).includes(name)) {
+			handlePlayer(id, name);
+			this.setState({ player: "", playerID: 0 });
+		} else {
+			this.setState({ error: true });
+		}
+	}
 
 	render() {
 
@@ -39,8 +48,18 @@ class Players extends Component {
 										onChange={ this.handleChange } 
 										value={ this.state.value } 
                                         type="text" 
-                                        placeholder="Pick a Pokémon..."
+										placeholder="Pick a Pokémon..."
+										list="players"
 									/>
+
+									<datalist id="players">
+										{ this.state.players.map((player) => {
+                                    		return (<option key={ player.id } value={ player.name } />);
+                                		}) }
+										{/*{this.state.players.map(player => {
+										return <li key={player.id}>{player.name}</li>;
+										})}*/}
+									</datalist>
 
 									<button 
 										type="submit"

@@ -11,13 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* 
-body {
+
+/* body {
 font-family: 'Press Start 2P', cursive;
 font-size: 12px;
 text-transform: uppercase;
-}
-*/ 
+} 
+*/
+ 
 
 .round {
   float: left;
