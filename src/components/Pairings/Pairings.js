@@ -11,8 +11,8 @@ const Pairings = () => (
     
     <div>
         <br></br><br></br>
-        <div class="round r-of-16"><center>Round of 16</center>
-        <br></br>
+        <div class="round r-of-16">Round of 16
+        <br></br><br></br>
         <div class="bracket-game">
             <div class="player top win"> Mew
             <div class="score"> 3 </div>
@@ -68,12 +68,11 @@ const Pairings = () => (
     <div class="clear"></div>
     </div></div>
     
-
     {/* Quarter Final */}    
     
     <div> <br></br>
-    <div class="round q-f"><center>Quarter Final</center>
-    <br></br> <br></br> <br></br>
+    <div class="round q-f">Quarters
+    <br></br> <br></br> <br></br><br></br>
     <div class="bracket-game">
         <div class="player top win">
         Mew
@@ -119,7 +118,7 @@ const Pairings = () => (
       {/* Semi Final */}  
 
       <div><br></br><br></br>
-           <div class="round s-f"><center>Semi Final</center>
+           <div class="round s-f">Semis
     <br></br> <br></br> <br></br>
     <br></br> <br></br> <br></br> <br></br> 
     <div class="bracket-game">
@@ -153,10 +152,11 @@ const Pairings = () => (
     {/* Final */ }
 
     <div> <br></br><br></br>
-        <div><div class="round final"><center>Final</center><br></br><br></br>
+        <div><div class="round final">Final</div><br></br><br></br>
     
-        <div><center>WINNER</center></div><br></br>
-       <center><i class="fa fa-trophy fa-3x"></i></center> 
+        <div>WINNER</div><br></br>
+       {/*<i class="fa fa-trophy fa-3x"></i>*/}
+       <img src="https://img.icons8.com/color/48/000000/star-pokemon.png"></img>
         <div class="bracket-game">
         <div class="player top win">
        <center> Mew </center> </div></div>
@@ -181,6 +181,7 @@ const Pairings = () => (
     </div>
 
 
+
     <div class="connectors final">
     <div class="top-line"></div>
     <div class="clear"></div>
@@ -190,12 +191,12 @@ const Pairings = () => (
     <div class="clear"></div>
     <div class="next-line"></div>
     <div class="clear"></div>
-    </div></div></div>
+    </div></div>
 
     {/* Semi Final*/ }
 
     <div><br></br><br></br>
-         <div class="round s-f"><center>Semi Final</center>
+         <div class="round s-f">Semis
     <br></br> <br></br> <br></br>
     <br></br> <br></br> <br></br> <br></br> 
     <div class="bracket-game">
@@ -229,8 +230,8 @@ const Pairings = () => (
     {/* Quarter Final*/ }
 
     <div> <br></br>
-    <div class="round q-f"><center>Quarter Final</center>
-    <br></br> <br></br> <br></br>
+    <div class="round q-f">Quarters
+    <br></br> <br></br> <br></br><br></br>
     <div class="bracket-game">
         <div class="player top win">
         Nidoran
@@ -276,8 +277,9 @@ const Pairings = () => (
     {/* Round of 16 */ }
 
     <div><br></br><br></br>
-        <div class="round r-of-16"><center>Round of 16</center>
-        <br></br><div class="bracket-game">
+        <div class="round r-of-16">Round of 16
+        <br></br><br></br>
+        <div class="bracket-game">
             <div class="player top win"> Nidoran
             <div class="score"> 3 </div>
         </div>

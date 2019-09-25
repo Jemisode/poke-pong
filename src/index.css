@@ -1,48 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-/* body {
+ body {
 font-family: 'Press Start 2P', cursive;
 font-size: 12px;
 text-transform: uppercase;
+text-align: center;
 } 
-*/
- 
 
+.btn-submit {
+  background-color: #ffcb05;
+  color: #3466af;
+  border-color: #ffcb05;
+  border-width: 2px;
+}
+ 
 .round {
-  float: left;
+  float: center;
 }
 .round.r-of-16 {
+  margin-top: 3px;
   
 }
 .round.q-f {
-  margin-top: 25px;
+  margin-top: 20px;
 }
+
+.round.s-f {
+  margin-top: 3px;
+}
+
+.round.final {
+  margin-top: 3px;
+}
+
 .bracket-game {
-  max-width: 125px;
+  max-width: 200px;
   margin: 10px 0;
 }
 .player {
-  min-width: 110px;
+  min-width: 100px;
   border: 1px solid #AAA;
   padding-left: 10px;
 }
 .player.top {
   border-radius: 3px 3px 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  
+  
 }
 .player.bot {
   border-radius: 0 0 3px 3px;
+  border-radius: 3px 3px 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  
+  
+  
 }
 .player .score {
   display: inline;
@@ -50,45 +64,56 @@ text-transform: uppercase;
   border-left: 1px solid #AAA;
   padding-left: 10px;
   padding-right: 10px;
-  background: #EEE;
+  background: #ffffff;
+  color: #000000;
 }
 .player.win {
-  background-color: #B8F2B8;
+  background-color: #ffcb05;
+  color: #000000;
+  
+  
 }
 .player.loss {
-  background-color: #F2B8B8;
+  background-color: #3466af;
+  color: #FFFFFF;
+  
+  
 }
+
+/* 
 .connectors {
   float: left;
-  min-width: 35px;
+  min-width: 35px; 
+
 }
 .connectors.q-f .top-line {
   position: relative;
   top: 30px;
   width: 17px;
-  border: 1px solid #ffffff;
+  border: 1px solid #AAA;
 }
 .connectors.q-f .bottom-line {
   position: relative;
   top: 81px;
   width: 17px;
-  border: 1px solid #ffffff;
+  border: 1px solid #AAA;
 }
 .connectors.q-f .vert-line {
   position: relative;
   top: 26px;
   left: -16px;
   height: 55px;
-  border-right: 2px solid #ffffff;
+  border-right: 2px solid #AAA;
 }
 .connectors.q-f .next-line {
   position: relative;
   top: -4px;
   left: 17px;
   width: 17px;
-  border: 1px solid #ffffff;
+  border: 1px solid #AAA;
 }
 .clear {
   clear: both;
 }
 
+*/
