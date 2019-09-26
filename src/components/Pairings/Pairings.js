@@ -74,7 +74,7 @@ const Pairings = () => (
     {/* Quarter Final */}    
     
     <div> <br></br>
-    <div class="round q-f">Quarters
+    <div class="round q-f">Quarter Finals
     <br></br> <br></br> <br></br><br></br>
     <div class="bracket-game">
         <div class="player top win">
@@ -121,7 +121,7 @@ const Pairings = () => (
       {/* Semi Final */}  
 
       <div><br></br><br></br>
-           <div class="round s-f">Semis
+           <div class="round s-f">Semi Finals
     <br></br> <br></br> <br></br>
     <br></br> <br></br> <br></br> <br></br> 
     <div class="bracket-game">
@@ -199,7 +199,7 @@ const Pairings = () => (
     {/* Semi Final*/ }
 
     <div><br></br><br></br>
-         <div class="round s-f">Semis
+         <div class="round s-f reversed">Semi Finals
     <br></br> <br></br> <br></br>
     <br></br> <br></br> <br></br> <br></br> 
     <div class="bracket-game">
@@ -233,7 +233,7 @@ const Pairings = () => (
     {/* Quarter Final*/ }
 
     <div> <br></br>
-    <div class="round q-f">Quarters
+    <div class="round q-f reversed">Quarter Finals
     <br></br> <br></br> <br></br><br></br>
     <div class="bracket-game">
         <div class="player top win">
@@ -280,7 +280,7 @@ const Pairings = () => (
     {/* Round of 16 */ }
 
     <div><br></br><br></br>
-        <div class="round r-of-16">Round of 16
+        <div class="round r-of-16 reversed">Round of 16
         <br></br><br></br>
         <div class="bracket-game">
             <div class="player top win"> Nidoran
