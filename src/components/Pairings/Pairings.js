@@ -22,7 +22,7 @@ const Pairings = () => (
             <div class="score"> 0 </div>
         </div>
     </div>
-    
+
     <br></br>
     <div class="bracket-game cont">
             <div class="player top loss"> Onix
@@ -168,7 +168,7 @@ const Pairings = () => (
     </div>
     </div>
 
-    <div class="connectors s-f">
+    <div class="connectors top s-f">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -179,6 +179,8 @@ const Pairings = () => (
     <div class="clear"></div>
     
     </div></div>
+
+    
 
     {/* Final */ }
 
@@ -211,9 +213,7 @@ const Pairings = () => (
     </div>
     </div>
 
-
-
-    <div class="connectors final">
+    <div class="connectors top final">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -222,7 +222,20 @@ const Pairings = () => (
     <div class="clear"></div>
     <div class="next-line"></div>
     <div class="clear"></div>
-    </div></div>
+    </div>
+    
+    <div class="connectors bot final">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    </div>
+    
+    </div>
 
     {/* Semi Final*/ }
 

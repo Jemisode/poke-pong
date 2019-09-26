@@ -111,17 +111,6 @@ text-align: center;
 
 /* Pairings connectors */
 
-/* 
- .connectors.q-f { 
-  float: left;
-  min-width: 35px; 
-  margin-left: -24px;
-  margin-top: -245px;
-
-} 
-
-*/
-
 .connectors.top.q-f {
   float: left;
   min-width: 35px; 
@@ -137,6 +126,27 @@ text-align: center;
   margin-top: -89px;
 }
 
+.connectors.top.s-f {
+  float: left;
+  min-width: 35px; 
+  margin-left: -25px;
+  margin-top: -112px;
+}
+
+.connectors.top.final {
+  float: left;
+  min-width: 35px; 
+  margin-left: -25px;
+  margin-top: -112px;
+
+}
+
+.connectors.bot.final {
+  float: left;
+  min-width: 35px; 
+  margin-left: 200px;
+  margin-top: -106px;
+}
 
 .connectors.top.q-f .top-line {
   position: relative;
@@ -153,6 +163,30 @@ text-align: center;
   border: 1px solid #AAA;
 
 }
+
+.connectors.top.s-f .top-line {
+  position: relative;
+  top: 23px;
+  width: 17px;
+  border: 1px solid #AAA;
+
+}
+
+.connectors.top.final .top-line {
+  position: relative;
+  top: -13px;
+  width: 10px;
+  border: 1px solid #AAA;
+
+}
+
+.connectors.bot.final .top-line {
+  position: relative;
+  top: -22px;
+  width: 10px;
+  border: 1px solid #AAA;
+}
+
 .connectors.top.q-f .bottom-line {
   position: relative;
   top: 107px;
@@ -166,6 +200,13 @@ text-align: center;
   width: 19px;
   border: 1px solid #AAA;
 
+}
+
+.connectors.top.s-f .bottom-line {
+  position: relative;
+  top: 177px;
+  width: 19px;
+  border: 1px solid #AAA;
 }
 
 .connectors.top.q-f .vert-line {
@@ -184,11 +225,35 @@ text-align: center;
   border-right: 2px solid #AAA;
 }
 
+.connectors.top.s-f .vert-line {
+  position: relative;
+  top: 19px;
+  left: -16px;
+  height: 158px;
+  border-right: 2px solid #AAA;
+}
+
+.connectors.top.final .vert-line {
+  position: relative;
+  top: -15px;
+  left: -25px;
+  height: 95px;
+  border-right: 2px solid #AAA;
+}
+
+.connectors.bot.final .vert-line {
+  position: relative;
+  top: -24px;
+  left: -34px;
+  height: 80px;
+  border-right: 2px solid #AAA;
+}
+
 .connectors.top.q-f .next-line {
   position: relative;
-  top: -28px;
+  top: -27px;
   left: 17px;
-  width: 17px;
+  width: 10px;
   border: 1px solid #AAA;
 }
 
@@ -197,6 +262,30 @@ text-align: center;
   top: -34px;
   left: 17px;
   width: 17px;
+  border: 1px solid #AAA;
+}
+
+.connectors.top.s-f .next-line {
+  position: relative;
+  top: -83px;
+  left: 17px;
+  width: 10px;
+  border: 1px solid #AAA;
+}
+
+.connectors.top.final .next-line {
+  position: relative;
+  top: -17px;
+  left: 10px;
+  width: 15px;
+  border: 1px solid #AAA;
+}
+
+.connectors.bot.final .next-line {
+  position: relative;
+  top: -14px;
+  left: -15px;
+  width: 15px;
   border: 1px solid #AAA;
 }
 
