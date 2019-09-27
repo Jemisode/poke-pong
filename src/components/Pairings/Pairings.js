@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from 'react-css-grid'
+import Winner from '../../assets/winner.png';
 
 const Pairings = () => (
 
@@ -188,8 +189,8 @@ const Pairings = () => (
         <div><div class="round final">Final</div><br></br><br></br>
     
         <div>WINNER</div><br></br>
-       {/*<i class="fa fa-trophy fa-3x"></i>*/}
-       <img src="https://img.icons8.com/color/48/000000/star-pokemon.png"></img>
+       {/*<img src="https://img.icons8.com/color/48/000000/star-pokemon.png"></img>*/}
+        <img src={Winner} alt="winner" />
         <div class="bracket-game">
         <div class="player top win">
        <center> Mew </center> </div></div>
