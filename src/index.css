@@ -151,7 +151,7 @@ text-align: center;
 
 .connectors.reversed.top.q-f {
   float: left;
-  min-width: 35px; 
+  min-width: -10px; 
   margin-left: -35px;
   margin-top: -205px;
   transform: rotate(180deg);
@@ -165,8 +165,6 @@ text-align: center;
   transform: rotate(180deg);
 
 }
-
-
 
 .connectors.reversed.bot.r-of-16 {
   float: left;
@@ -212,35 +210,36 @@ text-align: center;
 
 .connectors.reversed.final .top-line {
   position: relative;
-  top: -11px;
-  width: 10px;
+  top: -9px;
+  width: 15px;
+  left: -2px;
   border: 1px solid #AAA;
 
 }
 
 .connectors.reversed.top.q-f .top-line {
   position: relative;
-  top: -11px;
-  width: 10px;
+  top: -10px;
+  width: 15px;
   border: 1px solid #AAA;
 }
 
 .connectors.reversed.top.r-of-16 .top-line {
   position: relative;
-  top: -8px;
-  width: -100px;
+  top: -10px;
+  left: -10px;
+  width: 17px;
   border: 1px solid #AAA;
 }
  
 
 .connectors.reversed.bot.r-of-16 .top-line {
   position: relative;
-  top: -10px;
-  width: 15px;
+  top: -167px;
+  left: -18px;
+  width: 20px;
   border: 1px solid #AAA;
 }
-
-
 
 .connectors.top.q-f .bottom-line {
   position: relative;
@@ -267,7 +266,8 @@ text-align: center;
 .connectors.reversed.top.q-f .bottom-line {
   position: relative;
   top: 92px;
-  width: 25px;
+  width: 14px;
+  left: 13px;
   border: 1px solid #AAA;
 
 }
@@ -275,20 +275,18 @@ text-align: center;
 .connectors.reversed.top.r-of-16 .bottom-line {
   position: relative;
   top: 38px;
+  left: 5px;
   width: 25px;
   border: 1px solid #AAA;
 }
 
-
-
 .connectors.reversed.bot.r-of-16 .bottom-line {
   position: relative;
-  top: -90px;
-  width: 15px;
+  top: -87px;
+  left: -16px;
+  width: 18px;
   border: 1px solid #AAA;
 }
-
-
 
 .connectors.top.q-f .vert-line {
   position: relative;
@@ -324,7 +322,7 @@ text-align: center;
 
 .connectors.reversed.final .vert-line {
   position: relative;
-  top: -14px;
+  top: -11px;
   left: -25px;
   height: 95px;
   border-right: 2px solid #AAA;
@@ -340,23 +338,19 @@ text-align: center;
 
 .connectors.reversed.top.r-of-16 .vert-line {
   position: relative;
-  top: -10px;
+  top: -12px;
   left: -28px;
   height: 80px;
   border-right: 2px solid #AAA;
 }
 
-
-
 .connectors.reversed.bot.r-of-16 .vert-line {
   position: relative;
-  top: -150px;
-  left: -20px;
-  height: 160px;
+  top: -169px;
+  left: -28px;
+  height: 80px;
   border-right: 2px solid #AAA;
 }
-
-
 
 .connectors.top.q-f .next-line {
   position: relative;
@@ -392,9 +386,9 @@ text-align: center;
 
 .connectors.reversed.final .next-line {
   position: relative;
-  top: -15px;
-  left: -20px;
-  width: 20px;
+  top: -12px;
+  left: -15px;
+  width: 15px;
   border: 1px solid #AAA;
 }
 
@@ -409,8 +403,8 @@ text-align: center;
 
 .connectors.reversed.top.r-of-16 .next-line {
   position: relative;
-  top: -10px;
-  left: -12px;
+  top: -12px;
+  left: -11px;
   width: 18px;
   border: 1px solid #AAA;
 
@@ -419,8 +413,8 @@ text-align: center;
 .connectors.reversed.bot.r-of-16 .next-line {
   position: relative;
   top: -200px;
-  left: 10px;
-  width: 18px;
+  left: 1px;
+  width: 20px;
   border: 1px solid #AAA;
 }
 
