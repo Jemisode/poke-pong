@@ -8,7 +8,7 @@ header {
 }
 
 form.container {
-  padding-top: 5px;
+  padding-top: 30px;
   padding-bottom: 5px;
 }
 
@@ -26,11 +26,16 @@ text-transform: uppercase;
 text-align: center;
 } 
 
+
  
 /* All of the pairings */ 
-.sc-bdVaJa.codMLk {
+.grid {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+grid-template-rows: 55px 138px 136px;
+width: 100vw;
+height: 100vh;
  
-
 }
 
 /* Each pairing round */

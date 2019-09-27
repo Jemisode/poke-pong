@@ -4,7 +4,6 @@ class Players extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			players: [],
 			player: "",
 			
 		}
@@ -25,7 +24,6 @@ class Players extends Component {
 
 		return (
 			<React.Fragment>	
-							<center><br></br>
 							<div className="body background">   
 								<form className="container">
 									<label className="form-label">
@@ -33,18 +31,11 @@ class Players extends Component {
 
 									<input 
 										className="form-input" 
+										name="player"
+										type="text"
+										value={ this.state.player } 
 										onChange={ this.handleChange } 
-										value={ this.state.value } 
-                                        type="text" 
-										placeholder="Pick a Pokémon..."
-										list="players"
 									/>
-
-									{/* <li id="players">
-										{ this.state.players.map((player) => {
-                                    		return (<li key={ player.id } value={ player.name } />);
-                                		}) }
-									</li> */}
 
 									<button 
 										type="submit"
@@ -54,7 +45,6 @@ class Players extends Component {
 									</button>
 								</form>
 						</div>
-						</center>
 			</React.Fragment>
 		);
 	}

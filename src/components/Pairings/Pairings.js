@@ -4,7 +4,7 @@ import Winner from '../../assets/winner.png';
 
 const Pairings = () => (
 
-    <Grid
+    <Grid className="grid"
     width={50}
     gap={25}>
         
