@@ -213,7 +213,7 @@ const Pairings = () => (
     </div>
     </div>
 
-    <div class="connectors top final">
+    <div class="connectors final">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -224,7 +224,7 @@ const Pairings = () => (
     <div class="clear"></div>
     </div>
     
-    <div class="connectors bot final">
+    <div class="connectors reversed final">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -306,7 +306,7 @@ const Pairings = () => (
         </div>
     </div>
     </div>
-    <div class="connectors r-of-16 reversed">
+    <div class="connectors reversed top q-f">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -316,7 +316,10 @@ const Pairings = () => (
     <div class="next-line"></div>
     <div class="clear"></div>
     
-    </div></div>
+    </div>
+    
+
+    </div>
 
     {/* Round of 16 */ }
 
@@ -367,7 +370,7 @@ const Pairings = () => (
     </div>
     </div>
 
-    <div class="connectors r-of-16">
+    <div class="connectors reversed top r-of-16">
     <div class="top-line"></div>
     <div class="clear"></div>
     <div class="bottom-line"></div>
@@ -376,8 +379,25 @@ const Pairings = () => (
     <div class="clear"></div>
     <div class="next-line"></div>
     <div class="clear"></div>
-    </div></div>
+    </div>
     
+    <div class="connectors reversed bot r-of-16">
+    <div class="top-line"></div>
+    <div class="clear"></div>
+    <div class="bottom-line"></div>
+    <div class="clear"></div>
+    <div class="vert-line"></div>
+    <div class="clear"></div>
+    <div class="next-line"></div>
+    <div class="clear"></div>
+    </div>
+    
+    
+    
+    </div>
+    
+    
+
   </Grid>
 
 );
