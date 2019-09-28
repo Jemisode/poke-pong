@@ -65,11 +65,11 @@ I wanted to challenge myself in a number of ways so I decided to use React and R
  
 Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. At times I struggled with how to approach this challenge and apply the logic which was frustrating. On the other hand while I may not have been able to complete it over the course of the week; practising React and Redux has allowed me to increase my familarity and understanding of these two libraries for the future.
 
-## To be completed...
+## To be completed
 
-![Poké Pong app](poke-pong.jpg)
+![Poké Pong app](../poke-pong.jpg)
 
-* Remove hard coded Pokémon names and write logic that takes names and randomly allocates them to the Round of 16
+* Remove hard coded Pokémon names and write logic to randomly allocate names to the Round of 16
 * Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
 * Ensure user can only input letters and recognised Pokémon names from Generation 1
 * Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progresd (highlighted in blue)
