@@ -36,3 +36,17 @@ Secondly I set up React and Redux which was what the challenge was based upon:
 * Deleted unwanted files
 * Organised folder and file structure to make it easier to navigate as it developed, i.e. component and data folders.
 
+Thirdly my next focus was to plan out the components and visualise how the layout will be presented. From the outset I knew I required:
+
+* a Header component which would contain the title (which later became the Poké Pong logo)
+* a Players component which would render the form input and submit button so a user could add a Pokémon player
+* a Pairings component which will render the single elimaination tournament bracket - Round of 16, Quarter Final, Semi Final, Final and the winner. The layout of which was based on the CSS Grid layout using React CSS Grid by passing in the required width and gap props.
+
+Fourthly with the challenge set up complete, folder and file organised and initial components created. I then began with using Git and created a Github repository where I would push all the changes I had made over the course of the challenge.
+
+Lastly my attention turned to the styling:
+
+* Created an assets folder for the images 
+* Created a bespoke Poké Pong logo
+* Added a custom font from Google Fonts for the rounds text 
+* Used CSS throughout to customise the Grid layout, fonts and colours of the tournament bracket, header and submit button.

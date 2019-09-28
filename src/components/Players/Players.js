@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import Pairings from '../Pairings';
+import React, { Component } from 'react';
+
 
 class Players extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			player: "",
-			players: [],
 			
 		}
 		this.handleChange = this.handleChange.bind(this);
@@ -17,11 +16,9 @@ class Players extends Component {
 		this.setState({ player: e.currentTarget.value });
 	}
 
-	handleAdd = (e, state, players) => {
-		e.preventDefault();
-		this.props.handleSubmit({
-			name: this.state.player
-	});
+	handleAdd = () => {
+		let { handleSubmit } = this.props;
+		handleSubmit(this.state.player);
 	}
 
 	render() {
@@ -43,15 +40,14 @@ class Players extends Component {
 
 									<button 
 										type="submit"
-										onClick={ this.handleAdd }
+										onClick={ this.handleSubmit }
 										className="btn-submit">
 										Add
 									</button>
 								</form>
 						</div>
-						
 
-					<p>Player: { this.state.player } </p>
+					<p> Player: { this.state.player } </p>
 					
 			</React.Fragment>
 		);
