@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from 'react-css-grid'
 import Winner from '../../assets/winner.png';
+import Players from '../Players';
 
 const Pairings = () => (
 
@@ -84,11 +85,12 @@ const Pairings = () => (
         </div>
     </div>
 
-    {/* Quarter Final */}   
+            {/* Quarter Final */}   
 
-    <br></br> 
-    
     <div> 
+
+        <br></br>
+
         <div class="round q-f">Quarter Finals
 
         <br></br> <br></br> <br></br><br></br>

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Grid from 'react-css-grid'
-import Winner from '../../assets/winner.png';
+import Pairings from '../Pairings';
 
 class Players extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			player: "",
+			players: [],
 			
 		}
 		this.handleChange = this.handleChange.bind(this);
@@ -17,9 +17,11 @@ class Players extends Component {
 		this.setState({ player: e.currentTarget.value });
 	}
 
-	handleAdd = () => {
-		let { handleSubmit } = this.props;
-		handleSubmit(this.state.player);
+	handleAdd = (e, state, players) => {
+		e.preventDefault();
+		this.props.handleSubmit({
+			name: this.state.player
+	});
 	}
 
 	render() {
@@ -47,8 +49,9 @@ class Players extends Component {
 									</button>
 								</form>
 						</div>
+						
 
-					{/*<p>Player: { this.state.player } </p>*/}
+					<p>Player: { this.state.player } </p>
 					
 			</React.Fragment>
 		);
