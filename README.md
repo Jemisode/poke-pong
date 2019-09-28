@@ -67,7 +67,7 @@ Although React and Redux was fresh in mind from the previous weeks teaching and 
 
 ## To be completed
 
-![Poké Pong app](../poke-pong.jpg)
+![Poké Pong app](/src/assets/poke-pong.png "Poké Pong")
 
 * Remove hard coded Pokémon names and write logic to randomly allocate names to the Round of 16
 * Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
