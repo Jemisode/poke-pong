@@ -14,15 +14,15 @@ This challenge was created using React and Redux. For more information on how to
 Clone the repository for this challenge
 ### `git@github.com:Jemisode/poke-pong.git`
 
-This will install all the dependencies needed.
+Install all the required dependencies
 ### `npm install`
+Run the app in development mode
 
-This will run the app in development mode.<br>
+### `npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
-### `npm start`
 
 ## Plan
 
@@ -50,3 +50,28 @@ Lastly my attention turned to the styling:
 * Created a bespoke Poké Pong logo
 * Added a custom font from Google Fonts for the rounds text 
 * Used CSS throughout to customise the Grid layout, fonts and colours of the tournament bracket, header and submit button.
+
+## Issues
+
+I encountered a number of issues throughout the challenge which vary from React and/or Redux difficulties to those regarding the layout:
+
+* Planning the components in a way that managed state in the easiest possible way between the Players and Pairings components
+* Creating a responsive layout with React CSS Grid and media queries
+* Tested state so could output an individual added player but it would only update the bracket with the same name instead of mapping over all names and output 16 different names for the pairings.
+
+## What I learnt 
+
+I wanted to challenge myself in a number of ways so I decided to use React and Redux and aimed to complete the optional advanced features as mentioned in the brief.
+ 
+Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. At times I struggled with how to approach this challenge and apply the logic which was frustrating. On the other hand while I may not have been able to complete it over the course of the week; practising React and Redux has allowed me to increase my familarity and understanding of these two libraries for the future.
+
+## To be completed...
+
+![Poké Pong app](poke-pong.jpg)
+
+* Remove hard coded Pokémon names and write logic that takes names and randomly allocates them to the Round of 16
+* Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
+* Ensure user can only input letters and recognised Pokémon names from Generation 1
+* Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progresd (highlighted in blue)
+* Remove hard coded scores and write logic to handles the scores which ties in with the above winner and loser scenario in the pairings
+* Address the responsiveness of the CSS Grid so it can viewed on devices with smaller screens without problems regarding the layout

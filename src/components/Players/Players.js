@@ -47,7 +47,7 @@ class Players extends Component {
 								</form>
 						</div>
 
-					<p> Player: { this.state.player } </p>
+					{/* Player: { this.state.player } </p> */}
 					
 			</React.Fragment>
 		);
