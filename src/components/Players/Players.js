@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Grid from 'react-css-grid'
+import Winner from '../../assets/winner.png';
 
 class Players extends Component {
 	constructor(props) {
@@ -16,8 +18,8 @@ class Players extends Component {
 	}
 
 	handleAdd = () => {
-		// console.log(this.state.player);
-		
+		let { handleSubmit } = this.props;
+		handleSubmit(this.state.player);
 	}
 
 	render() {
@@ -45,6 +47,9 @@ class Players extends Component {
 									</button>
 								</form>
 						</div>
+
+					{/*<p>Player: { this.state.player } </p>*/}
+					
 			</React.Fragment>
 		);
 	}

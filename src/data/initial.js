@@ -1,7 +1,6 @@
 const initial = {
-    players: [],
-    pairings: [],
-    gameStarted: false,
+    players: "",
+   
 };
 
 export default initial;
