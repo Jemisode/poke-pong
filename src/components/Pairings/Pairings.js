@@ -1,7 +1,6 @@
 import React from 'react';
 import Grid from 'react-css-grid'
 import Winner from '../../assets/winner.png';
-import Players from '../Players';
 
 const Pairings = () => (
 

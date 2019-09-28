@@ -12,7 +12,7 @@ This challenge was created using React and Redux. For more information on how to
 ## Getting Started
 
 Clone the repository for this challenge
-### git@github.com:Jemisode/poke-pong.git
+### `git@github.com:Jemisode/poke-pong.git`
 
 This will install all the dependencies needed.
 ### `npm install`
