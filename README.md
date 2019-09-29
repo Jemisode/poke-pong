@@ -70,5 +70,5 @@ Although React and Redux was fresh in mind from the previous weeks teaching and 
 * Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
 * Ensure user can only input letters and recognised Pokémon names from Generation 1
 * Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progress (highlighted in blue)
-* Remove hard coded scores and write logic to handle so it ties in with the above winner-loser in each of the pairings
+* Remove hard coded scores and write logic so it ties in with the above winner-loser pairings
 * Address the responsiveness of the CSS Grid so it can viewed on devices with smaller screens without problems regarding the layout
