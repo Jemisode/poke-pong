@@ -22,13 +22,13 @@ For more information on how to get set up and what to install see below.
 ## Getting Started
 
 Clone the repository for this challenge
-#### $ `git@github.com:Jemisode/poke-pong.git`
+##### $ `git@github.com:Jemisode/poke-pong.git`
 
 Install all the required dependencies
-#### $ `npm install`
+##### $ `npm install`
 
 Run the app in development mode
-#### $ `npm start`<br>
+##### $ `npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Plan
