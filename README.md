@@ -54,13 +54,13 @@ I encountered a number of issues throughout the challenge which vary from React 
 
 * Planning the components in a way that managed state in the easiest possible way between the Players and Pairings components
 * Creating a responsive layout with React CSS Grid and media queries
-* Tested state so could output an individual added player but it would only update the bracket with the same name instead of mapping over all names and output 16 different names for the pairings.
+* Tested state so it could output an individual added player but it would only update the bracket with the same name instead of mapping over all the names and output 16 different names for the pairings.
 
 ## What I learnt 
 
 I wanted to challenge myself in a number of ways so I decided to use React and Redux and aimed to complete the optional advanced features as mentioned in the brief.
  
-Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. At times I struggled with how to approach this challenge and apply the logic which was frustrating. On the other hand while I may not have been able to complete it over the course of the week; practising React and Redux has allowed me to increase my familarity and understanding of these two libraries for the future.
+Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. I struggled at times with how to approach this challenge and apply the logic which was frustrating. On the other hand while I may not have been able to complete the functionality of the challenge; practising React and Redux has been invaluable to increase my familarity and understanding of these two libraries should I use them in the future.
 
 ## To be completed
 
