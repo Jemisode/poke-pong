@@ -7,18 +7,28 @@ Optional advanced features included:
 * ability to record scores for each player, or mark which player won from each pairing, to create the next round of the touranment playoffs
 * continued rounds created until the final (last 2 players who have won all matches to date play each other, one marked as the winner)
 
-This challenge was created using React and Redux. For more information on how to get set up and what to install see below. 
+This challenge was created using the following:
+
+* React
+* Redux
+* JavaScript / JSX
+* HTML
+* CSS
+* Bootstrap
+* Git & GitHub for version management
+
+For more information on how to get set up and what to install see below. 
 
 ## Getting Started
 
 Clone the repository for this challenge
-#### `git@github.com:Jemisode/poke-pong.git`
+#### $ `git@github.com:Jemisode/poke-pong.git`
 
 Install all the required dependencies
-#### `npm install`
+#### $ `npm install`
 
 Run the app in development mode
-#### `npm start`<br>
+#### $ `npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Plan
