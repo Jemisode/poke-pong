@@ -29,7 +29,9 @@ Install all the required dependencies
 
 Run the app in development mode
 ##### `$ npm start`<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
+
+Alternatively it can be viewed live at[Poké Pong app](https://jemisode.github.io/poke-pong/ "Poké Pong").
 
 ## Plan
 
