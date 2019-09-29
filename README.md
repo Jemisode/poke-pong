@@ -2,7 +2,7 @@
 
 The brief of the DevelopMe technical challenge was to create a tool which randomly creates pairings for a table tennis touranment bracket from a list of names collected from the user. 
 
-Optional advanced features may include:
+Optional advanced features included:
 
 * ability to record scores for each player, or mark which player won from each pairing, to create the next round of the touranment playoffs
 * continued rounds created until the final (last 2 players who have won all matches to date play each other, one marked as the winner)
@@ -12,17 +12,14 @@ This challenge was created using React and Redux. For more information on how to
 ## Getting Started
 
 Clone the repository for this challenge
-### `git@github.com:Jemisode/poke-pong.git`
+#### `git@github.com:Jemisode/poke-pong.git`
 
 Install all the required dependencies
-### `npm install`
+#### `npm install`
+
 Run the app in development mode
-
-### `npm start`<br>
+#### `npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 ## Plan
 
@@ -72,6 +69,6 @@ Although React and Redux was fresh in mind from the previous weeks teaching and 
 * Remove hard coded Pokémon names and write logic to randomly allocate names to the Round of 16
 * Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
 * Ensure user can only input letters and recognised Pokémon names from Generation 1
-* Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progresd (highlighted in blue)
-* Remove hard coded scores and write logic to handles the scores which ties in with the above winner and loser scenario in the pairings
+* Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progress (highlighted in blue)
+* Remove hard coded scores and write logic to handle so it ties in with the above winner-loser in each of the pairings
 * Address the responsiveness of the CSS Grid so it can viewed on devices with smaller screens without problems regarding the layout
