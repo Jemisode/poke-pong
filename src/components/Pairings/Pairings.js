@@ -8,7 +8,6 @@ const Pairings = () => (
     width={50}
     gap={25}>
         
-
     {/* Round of 16 */}
     
     <div>

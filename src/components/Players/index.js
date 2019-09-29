@@ -11,7 +11,7 @@ const mapStatetoProps = (state) => {
 
 const mapDispatchToProps = dispatch => { 
         return { 
-            handlePlayer: (id, name) => dispatch(addPlayer(id, name)),
+            handlePlayer: (name) => dispatch(addPlayer(name)),
         }; 
     };
 

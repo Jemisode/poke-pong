@@ -9,7 +9,7 @@ const addPlayer = (state, action) => {
 
 // reducer determines how the state is affected by taking different actions
 // and transforms our data based on the action's type property
-const reducer = (state, action) => {
+const reducer = (state) => {
     switch (action.type) {
         case "add": return addPlayer(state, action);
         default: return state;
