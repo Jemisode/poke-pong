@@ -41,7 +41,7 @@ Secondly I set up React and Redux which was what the challenge was based upon:
 
 * created the Poké Pong directory 
 * Installed all the dependencies
-* Added Boostrap into the index.html
+* Added Bootstrap into the index.html
 * Deleted unwanted files
 * Organised folder and file structure to make it easier to navigate as it developed, i.e. component and data folders.
 
