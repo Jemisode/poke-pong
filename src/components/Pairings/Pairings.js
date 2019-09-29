@@ -12,7 +12,6 @@ const Pairings = () => (
     {/* Round of 16 */}
     
     <div>
-        <br></br><br></br>
         
         <div class="round r-of-16"> Round of 16
 
@@ -88,8 +87,6 @@ const Pairings = () => (
 
     <div> 
 
-        <br></br>
-
         <div class="round q-f">Quarter Finals
 
         <br></br> <br></br> <br></br><br></br>
@@ -142,7 +139,7 @@ const Pairings = () => (
 
       {/* Semi Final */}  
 
-    <div><br></br><br></br>
+    <div>
 
         <div class="round s-f">Semi Finals
 
@@ -175,7 +172,7 @@ const Pairings = () => (
 
     {/* Final */ }
 
-    <div> <br></br><br></br>
+    <div> 
 
         <div>
             <div class="round final">Final</div>
@@ -227,7 +224,7 @@ const Pairings = () => (
 
     {/* Semi Final*/ }
 
-    <div><br></br><br></br>
+    <div>
          <div class="round s-f reversed">Semi Finals
     
     <br></br> <br></br> <br></br>
@@ -258,8 +255,6 @@ const Pairings = () => (
     {/* Quarter Final*/ }
 
     <div> 
-        <br></br>
-
             <div class="round q-f reversed">Quarter Finals
     
     <br></br> <br></br> <br></br><br></br>
@@ -300,8 +295,6 @@ const Pairings = () => (
     {/* Round of 16 */ }
 
     <div>
-        <br></br><br></br>
-
             <div class="round r-of-16 reversed">Round of 16
 
         <br></br><br></br>
