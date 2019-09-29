@@ -54,13 +54,13 @@ I encountered a number of issues throughout the challenge which vary from React 
 
 * Planning the components in a way that managed state in the easiest possible way between the Players and Pairings components
 * Creating a responsive layout with React CSS Grid and media queries
-* Tested state so could output an individual added player but it would only update the bracket with the same name instead of mapping over all names and output 16 different names for the pairings.
+* Tested state so could output an individual added player but it would only update the bracket with the same name instead of mapping over all of the names and display 16 different names for the pairings.
 
 ## What I learnt 
 
 I wanted to challenge myself in a number of ways so I decided to use React and Redux and aimed to complete the optional advanced features as mentioned in the brief.
  
-Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. At times I struggled with how to approach this challenge and apply the logic which was frustrating. On the other hand while I may not have been able to complete it over the course of the week; practising React and Redux has allowed me to increase my familarity and understanding of these two libraries for the future.
+Although React and Redux was fresh in mind from the previous weeks teaching and the group challenge. I struggled at times with how to approach this challenge and apply the logic which was frustrating. On the one hand I was unable to get the functionality to work; practising React and Redux has been invaluable for me as it has increased my familarity and understanding of these two libraries for future use.
 
 ## To be completed
 
@@ -70,5 +70,5 @@ Although React and Redux was fresh in mind from the previous weeks teaching and 
 * Ensure a Pokémon name is no shorter than three and no longer than twelve in length 
 * Ensure user can only input letters and recognised Pokémon names from Generation 1
 * Write logic that ensures winner goes through to the next round (highlighted in yellow) whilst the loser does not progress (highlighted in blue)
-* Remove hard coded scores and write logic to handle so it ties in with the above winner-loser in each of the pairings
-* Address the responsiveness of the CSS Grid so it can viewed on devices with smaller screens without problems regarding the layout
+* Remove hard coded scores and write logic so it ties in with the winner-loser logic in each of the pairings
+* Address the responsiveness of the CSS Grid so it can be viewed on devices with smaller screens without problems regarding the layout

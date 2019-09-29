@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Players extends Component {
 	constructor(props) {
 		super(props);
@@ -47,12 +46,12 @@ class Players extends Component {
 								</form>
 						</div>
 
-					{/* Player: { this.state.player } </p> */}
+					 {/* Test code to see that state was being outputted */}
+					 {/*<p> Player: { this.state.player } </p>*/} 
 					
 			</React.Fragment>
 		);
 	}
 };
-
 
 export default Players;
