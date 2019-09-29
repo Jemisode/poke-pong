@@ -192,38 +192,38 @@ const Pairings = () => (
 
     <br></br><br></br>
     
-            <div class="bracket-game">
-                <div class="player top win"> Mew
-                <div class="score"> 2 </div>
-            </div>
-                <div class="player bot loss"> Nidoran
-                <div class="score"> 0 </div>
+                <div class="bracket-game">
+                    <div class="player top win"> Mew
+                    <div class="score"> 2 </div>
+                </div>
+                    <div class="player bot loss"> Nidoran
+                    <div class="score"> 0 </div>
+                </div>
             </div>
         </div>
-    </div>
 
-        <div class="connectors final">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
-        </div>
+            <div class="connectors final">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
     
-        <div class="connectors reversed final">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
+            <div class="connectors reversed final">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
         </div>
-    </div>
 
     {/* Semi Final*/ }
 
@@ -237,105 +237,104 @@ const Pairings = () => (
                 <div class="player top win"> Nidoran
                 <div class="score"> 4 </div>
             </div>
-            <div class="player bot loss"> Mankey
-            <div class="score"> 2 </div>
+                <div class="player bot loss"> Mankey
+                <div class="score"> 2 </div>
             </div>
         </div>
     </div>
 
-        <div class="connectors s-f">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
+            <div class="connectors s-f">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
         </div>
-    </div>
 
     {/* Quarter Final*/ }
 
     <div> 
         <br></br>
 
-        <div class="round q-f reversed">Quarter Finals
+            <div class="round q-f reversed">Quarter Finals
     
     <br></br> <br></br> <br></br><br></br>
 
-        <div class="bracket-game">
-            <div class="player top win"> Nidoran
-            <div class="score"> 4 </div>
+            <div class="bracket-game">
+                <div class="player top win"> Nidoran
+                <div class="score"> 4 </div>
+            </div>
+                <div class="player bot loss"> Staryu
+                <div class="score"> 2 </div>
+            </div>
         </div>
-            <div class="player bot loss"> Staryu
-            <div class="score"> 2 </div>
-        </div>
-    </div>
 
     <br></br> <br></br> <br></br> <br></br> <br></br>
 
-        <div class="bracket-game cont">
-            <div class="player top loss"> Cubone
-            <div class="score"> 0 </div>
-        </div>
-        <div class="player bot win"> Mankey
-        <div class="score"> 4 </div>
+            <div class="bracket-game cont">
+                <div class="player top loss"> Cubone
+                <div class="score"> 0 </div>
+            </div>
+                <div class="player bot win"> Mankey
+                <div class="score"> 4 </div>
+            </div>
         </div>
     </div>
-</div>
 
-        <div class="connectors reversed top q-f">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
-    </div>
-
-</div>
+            <div class="connectors reversed top q-f">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
+        </div>
 
     {/* Round of 16 */ }
 
     <div>
         <br></br><br></br>
 
-        <div class="round r-of-16 reversed">Round of 16
+            <div class="round r-of-16 reversed">Round of 16
 
         <br></br><br></br>
 
-            <div class="bracket-game">
-                <div class="player top win"> Nidoran
-                <div class="score"> 4 </div>
+                <div class="bracket-game">
+                    <div class="player top win"> Nidoran
+                    <div class="score"> 4 </div>
+                </div>
+                    <div class="player bot loss"> Weedle
+                    <div class="score"> 1 </div>
+                </div>
             </div>
-                <div class="player bot loss"> Weedle
-                <div class="score"> 1 </div>
-            </div>
-        </div>
 
     <br></br>
     
-            <div class="bracket-game cont">
-                <div class="player top loss"> Abra
-                <div class="score"> 2 </div>
-             </div>
-                <div class="player bot win"> Staryu
-                <div class="score"> 4 </div>
-        </div>
+                <div class="bracket-game cont">
+                    <div class="player top loss"> Abra
+                    <div class="score"> 2 </div>
+                </div>
+                    <div class="player bot win"> Staryu
+                    <div class="score"> 4 </div>
+            </div>
 
     <br></br>
 
-            <div class="bracket-game">
-                <div class="player top win"> Cubone
-                <div class="score"> 4 </div>
+                <div class="bracket-game">
+                    <div class="player top win"> Cubone
+                    <div class="score"> 4 </div>
+                </div>
+                    <div class="player bot loss"> Voltorb
+                    <div class="score"> 3 </div>
+                </div>
             </div>
-            <div class="player bot loss"> Voltorb
-            <div class="score"> 3 </div>
-            </div>
-        </div>
     
     <br></br>
 
@@ -350,28 +349,28 @@ const Pairings = () => (
     </div>
 </div>
 
-        <div class="connectors reversed top r-of-16">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
+            <div class="connectors reversed top r-of-16">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
+        
+            <div class="connectors reversed bot r-of-16">
+                <div class="top-line"></div>
+                <div class="clear"></div>
+                <div class="bottom-line"></div>
+                <div class="clear"></div>
+                <div class="vert-line"></div>
+                <div class="clear"></div>
+                <div class="next-line"></div>
+                <div class="clear"></div>
+            </div>
         </div>
-    
-        <div class="connectors reversed bot r-of-16">
-            <div class="top-line"></div>
-            <div class="clear"></div>
-            <div class="bottom-line"></div>
-            <div class="clear"></div>
-            <div class="vert-line"></div>
-            <div class="clear"></div>
-            <div class="next-line"></div>
-            <div class="clear"></div>
-        </div>
-    </div>
 
   </Grid>
 
