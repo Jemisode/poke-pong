@@ -1,6 +1,6 @@
 # Poké Pong
 
-The brief of the DevelopMe technical challenge was to create a tool which randomly creates pairings for a table tennis tournament bracket from a list of names collected from the user. 
+The brief of the Develop Me technical challenge was to create a tool which randomly creates pairings for a table tennis tournament bracket from a list of names collected from the user. 
 
 Optional advanced features included:
 
