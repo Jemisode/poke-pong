@@ -31,7 +31,7 @@ Run the app in development mode
 ##### `$ npm start`<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser. 
 
-Alternatively it can be viewed live at [https://jemisode.github.io/poke-pong/](https://jemisode.github.io/poke-pong/ "Poké Pong").
+Alternatively it can be viewed live at [https://jemisode.github.io/poke-pong](https://jemisode.github.io/poke-pong "Poké Pong").
 
 ## Plan
 
